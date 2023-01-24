@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Best Teams Fan Page</title>
+</head>
+<body>
+<img src="field.jpeg" alt="Football field" class="banner">
+<h1>Best Football Teams</h1>
+<nav>
+    <ul>
+        <li><a href="#Team_information">Team information</a></li>
+        <li><a href="#Recent_Scores">Recent scores</a></li>
+    </ul>
+</nav>
+<h2>Top Premier League Teams</h2>
+<ol>
+    <li>Manchester City</li>
+    <li>Liverpool</li>
+    <li>Chelsea</li>
+</ol>
+<h2>Top La Liga Teams</h2>
+<ol>
+    <li>Barcelona</li>
+    <li>Real Madrid</li>
+    <li>Atletico Madrid</li>
+</ol>
+<section id="Team_information">
+<h3>Team Information</h3>
+<p>Get to know more about your favorite Premier League teams. <br> <b>Just click to know more</b></p>
+    <button id="more-info-btn">More Info</button>
+</section>
+
+
+
+    <form id="form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="team">Favorite Team:</label>
+    <input type="text" id="team" name="team"><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<section id="Recent_Scores">
+<h3>Recent Scores</h3>
+    <table>
+    <tr>
+        <th>Teams</th>
+        <th>Scores</th>
+    </tr>
+    <tr>
+        <td>Manchester City</td>
+        <td>Scores Hidden</td>
+    </tr>
+    <tr>
+        <td>Liverpool</td>
+        <td>Scores Hidden</td>
+    </tr>
+    <tr>
+        <td>Chelsea</td>
+        <td>Scores Hidden</td>
+    </tr>
+</table>
+    </section>
+<br>
+        <button id="show-scores" onclick="showScores()">Show Scores</button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

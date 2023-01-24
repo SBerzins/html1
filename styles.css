@@ -1,0 +1,79 @@
+body {
+    background-color: #e8f5e9;
+}
+.banner {
+    width: 1920px;
+    height: 400px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+
+.team-name {
+    color: blue;
+    cursor: pointer;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+
+@media print {
+        .banner {
+            visibility: hidden;
+        }
+    }
+
+}
